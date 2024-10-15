@@ -9,19 +9,3 @@
 # Podaj promień koła: -12
 # Błąd: Promień nie może być ujemny.
 
-import math
-
-# Pobieranie promienia od użytkownika
-radius = float(input("Podaj promień koła: "))
-
-# Sprawdzenie, czy promień jest nieujemny
-if radius < 0:
-    print("Błąd: Promień nie może być ujemny.")
-else:
-    # Obliczanie pola i obwodu koła
-    area = math.pi * radius ** 2
-    circumference = 2 * math.pi * radius
-
-    # Wyświetlanie wyników
-    print(f"Pole koła: {area}")
-    print(f"Obwód koła: {circumference}")

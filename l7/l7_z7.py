@@ -13,13 +13,4 @@
 # Można stworzyć trójkąt.
 
 
-# Pobieranie długości boków od użytkownika
-a = float(input("Podaj długość pierwszego boku: "))
-b = float(input("Podaj długość drugiego boku: "))
-c = float(input("Podaj długość trzeciego boku: "))
 
-# Sprawdzanie, czy można utworzyć trójkąt
-if a + b > c and a + c > b and b + c > a:
-    print("Można stworzyć trójkąt.")
-else:
-    print("Nie można stworzyć trójkąta.")

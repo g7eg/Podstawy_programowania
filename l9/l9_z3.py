@@ -15,18 +15,3 @@
 # Ile chcesz wprowadzić liczb? -2
 # Błędna wartość, wprowadź liczbę większą niż 0.
 
-# Prośba o ilość liczb
-try:
-    n = int(input("Ile chcesz wprowadzić liczb? "))
-    if n <= 0:
-        print("Błędna wartość, wprowadź liczbę większą niż 0.")
-    else:
-        lista = []
-        for i in range(n):
-            liczba = int(input("Podaj liczbę: "))
-            lista.append(liczba)
-        print(f"Lista: {lista}")
-        print(f"Najmniejsza wartość: {min(lista)}")
-        print(f"Największa wartość: {max(lista)}")
-except ValueError:
-    print("Błędna wartość, wprowadź liczbę całkowitą.")

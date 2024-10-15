@@ -8,11 +8,3 @@
 # 1
 # 2
 
-
-y = int(input("Podaj liczbę całkowitą y: "))
-
-if y < 0:
-    print("Błąd: Liczba y musi być większa lub równa 0.")
-else:
-    for i in range(0, y + 1):
-        print(i)

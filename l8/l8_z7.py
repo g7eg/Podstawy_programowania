@@ -14,14 +14,3 @@
 # 3 4 5
 
 
-import itertools
-
-# Lista książek od 1 do 5
-ksiazki = [1, 2, 3, 4, 5]
-
-# Generowanie wszystkich kombinacji 3 książek z 5
-kombinacje = itertools.combinations(ksiazki, 3)
-
-# Wypisywanie każdej kombinacji
-for kombinacja in kombinacje:
-    print(" ".join(map(str, kombinacja)))

@@ -18,16 +18,3 @@
 # Brawo! Odgadłeś liczbę w 1 próbach.
 
 
-szukana_liczba = 42  # Liczba do odgadnięcia
-proby = 0
-
-while True:
-    proba = int(input("Podaj liczbę: "))
-    proby += 1
-    if proba > szukana_liczba:
-        print("Szukana wartość jest mniejsza")
-    elif proba < szukana_liczba:
-        print("Szukana wartość jest większa")
-    else:
-        print(f"Brawo! Odgadłeś liczbę w {proby} próbach.")
-        break

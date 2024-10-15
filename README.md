@@ -473,10 +473,10 @@ Wyniki wyświetlić na ekranie komputera.
 ## Lista 10 Zad. 6
 Napisz program, który będzie zawierał funkcje do analizy danych. Funkcje, jakie powinny zostać zaimplementowane to:
 
-srednia_wydajnosc – oblicza średnią wydajność z podanej listy,
-maksymalna_wydajnosc – zwraca maksymalną wydajność z listy,
-minimalna_wydajnosc – zwraca minimalną wydajność z listy,
-odchylenie_standardowe – oblicza odchylenie standardowe z listy.
+srednia_wydajnosc(lista) – oblicza średnią wydajność z podanej listy,
+maksymalna_wydajnosc(lista) – zwraca maksymalną wydajność z listy,
+minimalna_wydajnosc(lista) – zwraca minimalną wydajność z listy,
+odchylenie_standardowe(lista) – oblicza odchylenie standardowe z listy.
 Dane wydajności to: [120, 150, 130, 170, 140].
 
 Program powinien:

@@ -12,23 +12,3 @@
 # Średnia arytmetyczna wynosi: -0.7
 
 
-# Inicjalizacja listy do przechowywania liczb
-liczby = []
-
-while True:
-    wejscie = input("Podaj liczbę (lub 'end' aby zakończyć): ")
-
-    if wejscie == 'end':
-        if not liczby:
-            print("Błąd: 'end' nie może być pierwszą podaną wartością.")
-            break
-        else:
-            srednia = sum(liczby) / len(liczby)
-            print(f"Średnia arytmetyczna wynosi: {srednia}")
-            break
-    else:
-        try:
-            liczba = float(wejscie)
-            liczby.append(liczba)
-        except ValueError:
-            print("Błąd: Wprowadzono nieprawidłową wartość.")

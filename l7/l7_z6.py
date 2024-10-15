@@ -7,11 +7,4 @@
 # Podaj liczbę: -123
 # Liczba -123 jest nieparzysta.
 
-# Pobieranie liczby od użytkownika
-number = int(input("Podaj liczbę: "))
 
-# Sprawdzanie parzystości
-if number % 2 == 0:
-    print(f"Liczba {number} jest parzysta.")
-else:
-    print(f"Liczba {number} jest nieparzysta.")

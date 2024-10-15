@@ -9,25 +9,4 @@
 # Nieparzyste liczby pierwsze od 1 do 100:
 # [3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
-def czy_liczba_pierwsza(n):
-    if n <= 1:
-        return False
-    if n == 2:
-        return True
-    if n % 2 == 0:
-        return False
-    for i in range(3, int(n**0.5) + 1, 2):
-        if n % i == 0:
-            return False
-    return True
 
-def generuj_nieparzyste_liczby_pierwsze():
-    return (i for i in range(3, 101, 2) if czy_liczba_pierwsza(i))
-
-def main():
-    print("Nieparzyste liczby pierwsze od 1 do 100:")
-    liczby_pierwsze = list(generuj_nieparzyste_liczby_pierwsze())
-    print(liczby_pierwsze)
-
-if __name__ == "__main__":
-    main()
