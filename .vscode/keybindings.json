@@ -1,6 +1,6 @@
 [
     {
-        "key": "alt+z",
+        "key": "shift+alt+z",
         "command": "-editor.action.toggleWordWrap"
     }
 ]
