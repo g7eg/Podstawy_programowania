@@ -17,6 +17,34 @@ Jak zalogować się do Codespace:<br>
 </details>
 <br>
 
+<details>
+<summary>Jak sprawdzić swój program czy został wykonany poprawnie?</summary>
+<br>
+Do kazdego programu zostały utworzone po minimum 3 testy jednostkowe.
+Testy jednostkowe to nic innego jak sprypty sprawdzające czy dany program działa poprawnie.
+Są szeroko wykorzysytwane w wielu projektach deweloperskich.
+<br>W tym kursie nie skupiamy się na programowaniu takich testów więc będziemy z nich jedynie korzystać w celu sprawdzania poprawności wykonania zadania.<br>
+<br>
+
+1. :hammer: Rozwiąz zadanie zgodnie z treścią polecenia.<br>
+2. :pushpin: Przetestuj czy program wykonuje treść polecenia w taki sam sposób jak podano w przykładzie. Wielkość liter i formatowanie ma znaczenie.<br>
+3. :pizza: Uruchom test jednostkowy wykonując następujące polecenie w terminal:<br>
+   1. ```bash  pytest tests/test_l$_z#.py```
+   Gdzie $ to numer listy a # to numer zadania 
+   np.:```bash pytest tests/test_l7_z1.py```
+   > [!TIP]
+   > Podczas wpisywania polecenia mozesz korzsytać z tabulatora (klawisz TAB) w celu podpowiadania nazw plików i scieki do katalogów. Przyśpieszy to pisanie polecenia i zminimalizuje ryzyko powstania błedu. Jezeli dala podowiedz nie jest tym czego oczekujesz, wystarczy ponownie wcisnąć klawisz TAB. Przkładowo:
+   Mozesz wpisać "pytest te" tu nacisnąć TAB i podopowie Ci "pytest tests/" poniewaz tylko taki katalog znajduje się w katalogu głównym. Następnie dopisz "pytest tests/te" i znów wciśnij TAB. Program podpowie Ci kolejny fragment "pytest tests/test_l" i tu juz musisz podac numer listy, a następnie mozesz znów uzyć TAB. Poćwicz to podczas pisania poleceń.
+
+4. :running: Test jednostkowy dla wybranego zadanie zostanie uruchomiony.
+   1. Jezeli wszystko jest wykonane poprawnie. Otrzymasz na zielono komunikat ze program przeszedł testy '3 passed in 0.03s' ![alt text](.img/image.png)
+   2. Jezeli napisany przez Ciebie program nie spłenia kryterium w terminalu zostanie wyświetlony obszerny komunikat o miejscach potencjalnego błędu. Analiza tego raportu powinna pozwlolić Ci zrozumieć na czym polega błąd. Zazwyczaj wystarczy przeanalizować obszar raportu którzy jest wyświetlony kolorem czerwonym. Teraz musisz wyciągnąć wnioski i poprawić swój program. ![alt text](.img/image-3.png)
+   3. Aby ułatwić Ci zrozumienie napotkanego problememu na końcu raportu znajduje się sekcja ___'short test summary info'___. Gdzie w duzym skrócie opisane jest co oczekiwano a co otrzymano z uruchomienia Twojego programu w trakcie testu. W przykładznie ponizej problem jest z obliczaniem poprawnego wieku. ![alt text](.img/image-5.png)!
+   4. Po dokonaniu poprawek mozesz raz jeszcze uruchomić test. Mozesz uzyć strzałek góra/dół do przewinięcia polecenia które niedawno wykorzystywałeś - przyśpieszy to wprowadzanie polecenia w terminalu.
+
+</details>
+<br>
+
 > [!NOTE]
 > Codespace pozwala pracować w prekonfigurowanym środowisku z poziomu przeglądarki internetowej. Nie musisz instalować żadnego środowiska lokalnie na komputerze. Wystarczy że zalogujesz się na swoje konto.
 
