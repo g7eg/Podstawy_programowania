@@ -29,9 +29,9 @@ Są szeroko wykorzysytwane w wielu projektach deweloperskich.
 1. :hammer: Rozwiąz zadanie zgodnie z treścią polecenia.<br>
 2. :pushpin: Samodzielnie ręcznie (uruchamiając go) przetestuj czy program wykonuje treść polecenia w taki sam sposób jak podano w przykładzie. Wielkość liter i formatowanie w wyświelnanych komunikatach ma znaczenie.<br>
 3. :pizza: Uruchom test jednostkowy wykonując następujące polecenie w terminalu:<br>
-   1. ```bash  pytest tests/test_l$_z#.py```
+   1. ```pytest tests/test_l$_z#.py```
    Gdzie $ to numer listy a # to numer zadania 
-   np.:```bash pytest tests/test_l7_z1.py```
+   np.:```pytest tests/test_l7_z1.py```
    > [!TIP]
    > Podczas wpisywania polecenia mozesz korzsytać z tabulatora (klawisz TAB) w celu podpowiadania nazw plików i scieki do katalogów. Przyśpieszy to pisanie polecenia i zminimalizuje ryzyko powstania błedu. Jezeli dana podowiedz nie jest tym czego oczekujesz, wystarczy ponownie wcisnąć klawisz TAB. Przkładowo:
    Mozesz wpisać "pytest te" tu nacisnąć TAB i podopowie Ci "pytest tests/" poniewaz tylko taki katalog znajduje się w katalogu głównym. Następnie dopisz "pytest tests/te" i znów wciśnij TAB. Program podpowie Ci kolejny fragment "pytest tests/test_l" i tu juz musisz podac numer listy, a następnie mozesz znów uzyć TAB. Poćwicz to podczas pisania poleceń.
