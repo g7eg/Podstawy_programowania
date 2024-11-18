@@ -4,3 +4,13 @@
 # Podaj rok urodzenia: 1989 
 # Siemomysł, masz 33 lata.
 
+# Pobieranie danych od użytkownika
+imie = input("Podaj swoje imię: ")
+rok_urodzenia = int(input("Podaj rok urodzenia: "))
+
+# Obliczenie wieku
+aktualny_rok = 2026  # Możesz dostosować ten rok do aktualnego
+wiek = aktualny_rok - rok_urodzenia
+
+# Wyświetlenie wyniku
+print(f"{imie}, masz {wiek} lat.")
