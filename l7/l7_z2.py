@@ -1,3 +1,4 @@
+# [2 pkt]
 # Zad. 2 Napisać program proszący użytkownika o podanie dwóch liczb a i b i wypisujący ich sumę, różnicę,
 # iloczyn, iloraz, √(𝑎 + 𝑏) oraz ab i ba. W przypadku dzielenia przez 0 lub a+b < 0 zwróć wynik jako 'undefined'.
 # Przykład:
