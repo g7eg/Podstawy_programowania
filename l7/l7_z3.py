@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 7 Zad. 3
 # Napisać program, który oblicza pole i obwód koła o promieniu podanym przez użytkownika. Promień
 # nie może być ujemny. W przypadku podania liczby ujemnej, program powinien wypisywać komunikat "Błąd: Promień nie może być ujemny." informujący o błędnej wartości i nic nie liczyć.
