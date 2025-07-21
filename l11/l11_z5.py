@@ -1,5 +1,5 @@
+# [3 pkt]
 # ## Lista 11 Zad. 5
-# 3pkt
 # Napisać program zawierający funkcję zlicz_unikalne_slowa(nazwa_pliku_wejsciowego, nazwa_pliku_wyjsciowego), który polega na zliczaniu unikalnych słów w pliku tekstowym i zapisaniu ich wraz z liczbą wystąpień do innego pliku.
 
 # Podpowiedź:
