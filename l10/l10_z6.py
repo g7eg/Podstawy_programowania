@@ -1,3 +1,5 @@
+# [3 pkt]
+# ## Lista 10 Zad. 6
 # Napisz program, który będzie zawierał funkcje do analizy danych. Funkcje, jakie powinny zostać zaimplementowane to:
 
 # srednia_wydajnosc – oblicza średnią wydajność z podanej listy,
