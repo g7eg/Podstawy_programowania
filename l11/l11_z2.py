@@ -1,5 +1,5 @@
+# [2 pkt]
 # ## Lista 11 Zad. 2
-# 2pkt
 # Napisać funkcję 'wczytaj_plik(nazwa_pliku)', która obsługuje otwieranie pliku do wczytywania danych.
 # Jako argument przyjmuje nazwę pliku. Zapytać użytkownika o nazwę pliku, który chce otworzyć do wczytania.
 # Jeśli plik nie istnieje wypisać mu odpowiedni komunikat.
