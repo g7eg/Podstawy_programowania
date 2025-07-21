@@ -8,6 +8,9 @@ Siemomysł, masz 33 lata.'''
 import pytest
 from unittest.mock import patch
 from io import StringIO
+from datetime import datetime
+
+current_year = datetime.now().year
 
 @patch('builtins.input', side_effect=["Siemomysł", "1989"])
 @patch('sys.stdout', new_callable=StringIO)
@@ -18,7 +21,7 @@ def test_poprawny_wiek(mock_stdout, mock_input):
             exec(open('l7/l7_z1.py').read())
 
     output = mock_stdout.getvalue().strip()
-    expected_output = "Siemomysł, masz 35 lat."
+    expected_output = f"Siemomysł, masz {current_year-1989} lat."
     assert output == expected_output, f"Oczekiwano: '{expected_output}', otrzymano: '{output}'"
     # print(f"Oczekiwano: '{expected_output}', otrzymano: '{output}'")
 
@@ -31,10 +34,10 @@ def test_inny_wiek(mock_stdout, mock_input):
             exec(open('l7/l7_z1.py').read())
 
     output = mock_stdout.getvalue().strip()
-    expected_output = "Anna, masz 24 lat."
+    expected_output = f"Anna, masz {current_year-2000} lat."
     assert output == expected_output, f"Oczekiwano: '{expected_output}', otrzymano: '{output}'"
 
-@patch('builtins.input', side_effect=["Jan", "2024"])
+@patch('builtins.input', side_effect=["Jan", str(current_year)])
 @patch('sys.stdout', new_callable=StringIO)
 def test_wiek_zero(mock_stdout, mock_input):
     # Wywołanie kodu z pliku
