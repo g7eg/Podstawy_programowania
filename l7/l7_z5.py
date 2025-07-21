@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 7 Zad. 5
 # Napisać program sprawdzający czy osoba urodzona w danym roku jest pełnoletnia
 # Przykład:
