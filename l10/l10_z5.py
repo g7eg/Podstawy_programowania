@@ -4,6 +4,7 @@
 # Dla każdego działania utworzyć osobną funkcję. Dla dodawania i odejmowania dopasować długości wielomianów przez dodanie zer do krótszego
 # wielomianu. Wówczas wykorzystać funkcję zip. Funkcja zip(w1, w2) w Pythonie łączy elementy dwóch iterowalnych obiektów w1 i w2 w pary. 
 # Tworzy sekwencję krotek, gdzie każdy element w parach składa się z odpowiednio sparowanych elementów z w1 i w2. 
+# W pliku README znajduje się sformatowany wizualnie freagment przykładu kodu, który przedstaiono w formie komentarzea poniżej.
 # Na przykład:
 
 # ```python
