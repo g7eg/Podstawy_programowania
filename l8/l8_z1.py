@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 8 Zad. 1
 # Napisać program, który dla wprowadzonego przez użytkownika ciągu liczb rzeczywistych wyznacza ich
 # średnią arytmetyczną. Wprowadzanie ciągu kończy się poprzez wprowadzenie napisu ’end’. Program
