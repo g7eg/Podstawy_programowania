@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 7 Zad. 4
 # Napisać program proszący użytkownika o podanie dwóch liczb a i b. Następnie należy wyświetlić, która
 # z tych liczb jest większa, bądź komunikat, że są sobie równe.
