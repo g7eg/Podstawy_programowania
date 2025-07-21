@@ -4,6 +4,7 @@
         "vscode": {
             "extensions": ["ms-python.python", "bierner.markdown-emoji", "yzhang.markdown-all-in-one", "shd101wyy.markdown-preview-enhanced"],
             "settings": {
+                "chat.agent.enabled": false,
                 "extensions.ignoreRecommendations": true,
                 "security.workspace.trust.enabled": false,
                 "extensions.autoCheckUpdates": false,
