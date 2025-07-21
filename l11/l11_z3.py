@@ -1,5 +1,5 @@
+# [2 pkt]
 # ## Lista 11 Zad. 3
-# 2pkt
 # Napisać kod, który sprawdzi, jak często słowo "kot" występuje w pliku "tekst.txt".
 # Przykład:
 # Jeśli w pliku "przykladowy_plik_tekstowy_z_kotkami.txt" znajduje się tekst "Kot jest bardzo fajnym zwierzęciem", to kod powinien wyświetlić "Słowo 'kot' wystąpiło 1 razy w pliku 'przykladowy_plik_tekstowy_z_kotkami.txt'."
