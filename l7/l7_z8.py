@@ -1,3 +1,4 @@
+# [3 pkt]
 # Lista 7 Zad. 8
 # Napisać program, który pobierze od studenta liczbę punktów i oceni go według podanej skali. Ponadto
 # użytkownik może wybrać w jakiej formie chce dostać ocenę (liczbowo lub słownie lub oba). W przypadku podania błędnej formy wypisz kompunikat: 'Nieznana forma oceny.'
