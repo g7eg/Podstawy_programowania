@@ -1,6 +1,7 @@
 # [3 pkt]
 # Lista 8 Zad. 7
 # Napisać program który wypisze na ekranie wszystkie możliwe kombinacje książek jakie można wybrać.
+# Wykorzystaj zagnieżdżanie pętli.
 # Do wyboru jest pięć książek, a wybieramy trzy z nich. Fragment danych jakie powinny zostać
 # wypisywane na ekranie:
 # 1 2 3
