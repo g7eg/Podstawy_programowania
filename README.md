@@ -376,6 +376,7 @@ Napisać program, który narysuje z gwiazdek (\*) kwadrat 10 na 10.
 ### 3pkt
 
 Napisać program który wypisze na ekranie wszystkie możliwe kombinacje książek jakie można wybrać.
+Wykorzystaj zagnieżdżanie pętli.
 Do wyboru jest pięć książek, a wybieramy trzy z nich.
 
 > [!TIP]
