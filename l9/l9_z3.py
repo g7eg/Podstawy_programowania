@@ -1,3 +1,5 @@
+# [2 pkt]
+# ## Lista 9 Zad. 3
 # Korzystając z programu z zad 1 do wprowadzenia liczb, znaleźć najmniejszą i największą wartość w
 # liście i wypisać ją na ekran
 
