@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 8 Zad. 4
 # Napisać program, który wyświetli wszystkie liczby z przedziału od 50 do 100 podzielne przez dowolną liczbę k, którą podaje użytkownik. W przypadku podania niewłaściwej wartości wyświetl komunikat: "Błąd: Liczba k musi być większa od zera."
 # Przykład:
