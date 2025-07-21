@@ -1,3 +1,4 @@
+# [2 pkt]
 # ## Lista 9 Zad. 2
 # Korzystając z programu z zad 1 do wprowadzenia liczb, zsumować wszystkie liczby w liście i wypisać na ekran.
 
