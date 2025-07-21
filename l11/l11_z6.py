@@ -1,5 +1,5 @@
+# [3 pkt]
 # ## Lista 11 Zad. 6
-# ### 3pkt
 # Napisać program, który składa się z klasy reprezentującej książkę oraz funkcji, która będzie dodawała książki do listy i wypisywała książki, które znajdują się na tej liście. Każda książka powinna mieć tytuł, autora oraz rok wydania.
 
 
