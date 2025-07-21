@@ -1,3 +1,4 @@
+# [1 pkt]
 # ## Lista 9 Zad. 1
 # Napisać program proszący użytkownika o ilość liczb, które chce wprowadzić, następnie po kolei, każdą
 # liczbę należy wprowadzić do listy i wypisać cała zawartość listy. W przypadku podania niepoprawnej
