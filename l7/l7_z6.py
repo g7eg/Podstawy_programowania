@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 7 Zad. 6
 # Napisać program, który sprawdzi czy podana liczba jest parzysta i wyświetli odpowiedni komunikat.
 # Przykład:
