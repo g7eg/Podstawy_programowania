@@ -1,3 +1,5 @@
+# [2 pkt]
+# ## Lista 10 Zad. 4
 # Napisać program, który będzie obliczał i zwracał silnię podanej liczby za pomocą funkcji oblicz_silnie(n). Następnie wykorzystać
 # funkcję obliczającą silnię do znalezienia silni dla liczby wybranej przez użytkownika.
 
