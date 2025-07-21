@@ -1,3 +1,4 @@
+# [3 pkt]
 # ## Lista 10 Zad. 5
 # Napisać program z wykorzystaniem funkcji, który przeprowadzi operacje dodawania, odejmowania i mnożenia dla dwóch podanych wielomianów. 
 # Dla każdego działania utworzyć osobną funkcję. Dla dodawania i odejmowania dopasować długości wielomianów przez dodanie zer do krótszego
