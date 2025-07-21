@@ -1,3 +1,5 @@
+# [2 pkt]
+# ## Lista 10 Zad. 3
 # Napisać program, w którym należy utworzysz funkcje czy_liczba_pierwsza(n) sprawdzajacą czy n jest liczbą pierwszą, zwracając True lub False.
 # Następnie utwórzyć kolejną funkcję generuj_nieparzyste_liczby_pierwsze() wykorzystującą wcześniej utworzoną funckę czy_liczba_pierwsza(n),
 # która za pomocą wyrażania generującego obliczy liczby pierwsze od 1 do 100.
