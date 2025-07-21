@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 8 Zad. 5
 # Napisać program, gdzie zadaniem gracza jest odgadnięcie liczby. 
 # Liczba jest wprowadzona na stałe w kodzie. 
