@@ -1,4 +1,4 @@
-# [2 pkt]
+# [3 pkt]
 # ## Lista 9 Zad. 5
 # Przygotować słownik zawierający min 5 kierunków studiów oferowanych na Politechnice Wrocławskiej
 # razem z wydziałem, na którym są oferowane. Następnie napisać program, który będzie wskazywał na
