@@ -1,3 +1,5 @@
+# [1 pkt]
+# ## Lista 10 Zad. 1
 # Napisać funkcję kelvin_na_celsiusz() która przyjmuje wartość temperatury w Kelvinach i zwraca wartość wyrażoną w
 # stopniach Celsjusza. W przypadku podania wartości ujemnej funkcja zwraca None.
 
