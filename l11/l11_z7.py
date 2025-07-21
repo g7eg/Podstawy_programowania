@@ -1,5 +1,5 @@
+# [3 pkt + 2 pkt]
 # ## Lista 11 Zad. 7
-# ### 3pkt + 2pkt
 # ta część za 3 punkty:
 # Doklasy książka z poprzedniego zadania dopisać klasę biblioteka która będzie składać się z obiektów klasy książka. Do przechowywania książek w klasie biblioteka użyć zwykłej listy.
 # Klasa biblioteka powinna posiadać następujące metody (taka funkcja należąca do klasy):
