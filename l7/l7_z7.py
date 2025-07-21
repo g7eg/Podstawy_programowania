@@ -1,3 +1,4 @@
+# [2 pkt]
 # Lista 7 Zad. 7
 # Napisać program, który sprawdzi czy z podanych długości można stworzyć trójkąt i wypisze odpowiedni
 # komunikat.
