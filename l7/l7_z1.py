@@ -1,3 +1,4 @@
+# [1 pkt] 
 # Zad. 1 Napisać program proszący użytkownika o imię i rok urodzenia, a następnie obliczający i wypisujący jego wiek. 
 # Przykładowe wykonanie: 
 # Podaj swoje imię: Siemomysł 
