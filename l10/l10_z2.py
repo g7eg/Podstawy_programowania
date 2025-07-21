@@ -1,4 +1,8 @@
-# Napisać program, w którym należy sprawdzić we funkcji czy_liczba_doskonala(n), czy podana liczba n jest liczbą doskonała. Funkcja zwraca True jeśli liczba jest liczbą doskonała lub False jeśli nią nie jest. Liczba doskonała to liczba naturalna, która jest sumą wszystkich swych naturalnych dzielników właściwych (to znaczy od niej mniejszych).
+# [2 pkt]
+# ## Lista 10 Zad. 2
+# Napisać program, w którym należy sprawdzić we funkcji czy_liczba_doskonala(n), czy podana liczba n jest liczbą doskonała. 
+# Funkcja zwraca True jeśli liczba jest liczbą doskonała lub False jeśli nią nie jest. 
+# Liczba doskonała to liczba naturalna, która jest sumą wszystkich swych naturalnych dzielników właściwych (to znaczy od niej mniejszych).
 
 
 # Przykład:
