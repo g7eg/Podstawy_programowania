@@ -1,5 +1,5 @@
+# [2 pkt]
 # ## Lista 11 Zad. 4
-# 2pkt
 # Napisać funkcję polacz_listy, która przyjmuje dowolną liczbę list i zwraca jedną połączoną listę bez duplikatów zawierającą wszystkie elementy z podanych list. Wykorzystać funkcję z argumentem wielowartościowym. Listy mają być podane bezpośrednio w kodzie.
 
 # Podpowiedź:
