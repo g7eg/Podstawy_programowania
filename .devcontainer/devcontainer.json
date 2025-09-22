@@ -4,6 +4,8 @@
         "vscode": {
             "extensions": ["ms-python.python", "bierner.markdown-emoji", "yzhang.markdown-all-in-one", "shd101wyy.markdown-preview-enhanced"],
             "settings": {
+                "github.copilot.enable": {"*": false},
+                "chat.disableAIFeatures": true,
                 "chat.agent.enabled": false,
                 "chat.commandCenter.enabled": false,
                 "extensions.ignoreRecommendations": true,
