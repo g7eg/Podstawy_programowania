@@ -41,6 +41,8 @@ Są szeroko wykorzysytwane w wielu projektach deweloperskich.
    2. Jezeli napisany przez Ciebie program nie spłenia kryterium w terminalu zostanie wyświetlony obszerny komunikat o miejscach potencjalnego błędu. Analiza tego raportu powinna pozwlolić Ci zrozumieć na czym polega błąd. Zazwyczaj wystarczy przeanalizować obszar raportu którzy jest wyświetlony kolorem czerwonym. Na screenie ponizej przykład AssertionError, czyli takiej zgodności pomiędzy tym co test jednostkowy oczekuje ze otrzyma a tym co otrzymał. Więcej o pojęciu assercji mozna znaleźć tutaj: [Wikipedia - Asercja](https://pl.wikipedia.org/wiki/Asercja_(informatyka)). Teraz musisz wyciągnąć wnioski i poprawić swój program. ![alt text](.img/image-3.png)
    3. Aby ułatwić Ci zrozumienie napotkanego problememu na końcu raportu znajduje się sekcja ___'short test summary info'___. Gdzie w duzym skrócie opisane jest co oczekiwano a co otrzymano z uruchomienia Twojego programu w trakcie testu. W przykładznie ponizej problem jest z obliczaniem poprawnego wieku. ![alt text](.img/image-5.png)!
    4. Po dokonaniu poprawek mozesz raz jeszcze uruchomić test. Mozesz uzyć strzałek góra/dół do przewinięcia polecenia które niedawno wykorzystywałeś - przyśpieszy to wprowadzanie polecenia w terminalu.
+> [!TIP]
+   >Jezeli potrzebujesz więcej informacji zwróconych z testu jednstkowego mozesz uruchomić go z flagą -vv co uruchamia test w trybie szczegółowym. Przykład:```pytest tests/test_l7_z1.py -vv```
 
 </details>
 <br>

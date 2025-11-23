@@ -7,20 +7,25 @@ from contextlib import redirect_stdout
 # Dodaj ścieżkę do katalogu głównego projektu
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from l11.l11_z5 import zlicz_unikalne_slowa
+try:
+    from l11.l11_z5 import zlicz_unikalne_slowa
+except ImportError:
+    zlicz_unikalne_slowa = None
 
 # Funkcja pomocnicza do tworzenia plików testowych
+@pytest.mark.skipif(zlicz_unikalne_slowa is None, reason="Brak funkcji 'zlicz_unikalne_slowa' do zaimportowania.")
 def stworz_testowy_plik(nazwa_pliku, zawartosc):
     with open(nazwa_pliku, 'w', encoding='utf-8') as plik:
         plik.write(zawartosc)
 
 # Funkcja pomocnicza do odczytania zawartości pliku
+@pytest.mark.skipif(zlicz_unikalne_slowa is None, reason="Brak funkcji 'zlicz_unikalne_slowa' do zaimportowania.")
 def odczytaj_plik(nazwa_pliku):
     with open(nazwa_pliku, 'r', encoding='utf-8') as plik:
         return plik.read()
 
 # Testy jednostkowe
-
+@pytest.mark.skipif(zlicz_unikalne_slowa is None, reason="Brak funkcji 'zlicz_unikalne_slowa' do zaimportowania.")
 def test_zlicz_unikalne_slowa():
     # Przygotowanie danych testowych
     nazwa_pliku_wejsciowego = 'test_input.txt'
@@ -42,6 +47,7 @@ def test_zlicz_unikalne_slowa():
     os.remove(nazwa_pliku_wejsciowego)
     os.remove(nazwa_pliku_wyjsciowego)
 
+@pytest.mark.skipif(zlicz_unikalne_slowa is None, reason="Brak funkcji 'zlicz_unikalne_slowa' do zaimportowania.")
 def test_plik_nie_istnieje():
     nazwa_pliku_wejsciowego = 'nie_istnieje.txt'
     nazwa_pliku_wyjsciowego = 'wyniki_tmp.txt'

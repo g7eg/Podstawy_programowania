@@ -6,9 +6,13 @@ from contextlib import redirect_stdout
 
 # Dodaj ścieżkę do katalogu głównego projektu
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+try:
+    from l11.l11_z7 import Ksiazka, Biblioteka
+except ImportError:
+    Ksiazka = None
+    Biblioteka = None
 
-from l11.l11_z7 import Ksiazka, Biblioteka
-
+@pytest.mark.skipif(Ksiazka is None or Biblioteka is None, reason="Brak klasy 'Ksiazka' lub/i 'Biblioteka' do zaimportowania.")
 def test_dodaj_ksiazke():
     biblioteka = Biblioteka()
     biblioteka.dodaj_ksiazke("Testowa Książka", "Testowy Autor", 2023)
@@ -16,12 +20,14 @@ def test_dodaj_ksiazke():
     assert biblioteka.ksiazki[0].tytul == "Testowa Książka"
     assert biblioteka.ksiazki[0].autor == "Testowy Autor"
 
+@pytest.mark.skipif(Ksiazka is None or Biblioteka is None, reason="Brak klasy 'Ksiazka' lub/i 'Biblioteka' do zaimportowania.")
 def test_usun_ksiazke_o_tytule():
     biblioteka = Biblioteka()
     biblioteka.dodaj_ksiazke("Testowa Książka", "Testowy Autor", 2023)
     biblioteka.usun_ksiazke_o_tytule("Testowa Książka")
     assert len(biblioteka.ksiazki) == 0
 
+@pytest.mark.skipif(Ksiazka is None or Biblioteka is None, reason="Brak klasy 'Ksiazka' lub/i 'Biblioteka' do zaimportowania.")
 def test_wypisz_zawartosc_biblioteki():
     biblioteka = Biblioteka()
     biblioteka.dodaj_ksiazke("Książka 1", "Autor 1", 2022)
@@ -36,6 +42,7 @@ def test_wypisz_zawartosc_biblioteki():
     
     assert output == expected_output
 
+@pytest.mark.skipif(Ksiazka is None or Biblioteka is None, reason="Brak klasy 'Ksiazka' lub/i 'Biblioteka' do zaimportowania.")
 def test_znajdz_ksiazke_autora():
     biblioteka = Biblioteka()
     biblioteka.dodaj_ksiazke("Książka A", "Autor X", 2021)
@@ -52,6 +59,7 @@ def test_znajdz_ksiazke_autora():
     
     assert output == expected_output
 
+@pytest.mark.skipif(Ksiazka is None or Biblioteka is None, reason="Brak klasy 'Ksiazka' lub/i 'Biblioteka' do zaimportowania.")
 def test_znajdz_ksiazke_autora_brak():
     biblioteka = Biblioteka()
     
